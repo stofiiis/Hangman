@@ -3,7 +3,7 @@ from collections import Counter
 import pandas as pd
 
 HOST = '127.0.0.1'  # Lokální IP adresa (musí odpovídat serveru)
-PORT = 65432  # Port pro komunikaci
+PORT = 65433  # Port pro komunikaci
 
 # 📜 Načtení slovníku
 df = pd.read_csv("words.csv")
